@@ -1,4 +1,5 @@
-import styled from 'styled-components'
+import styled from 'styled-components';
+import './normalize.css'
 
 export default function App() {
   return (
