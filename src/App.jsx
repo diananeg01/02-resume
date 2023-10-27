@@ -1,9 +1,9 @@
-import './App.css'
+import styled from 'styled-components'
 
 export default function App() {
   return (
     <main>
-      React ⚛️ + Vite ⚡ + Replit 🌀
+      Hello, Resume! :)
     </main>
   )
 }
