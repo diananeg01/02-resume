@@ -27,11 +27,11 @@ export default ExperienceCard;
 const Container = styled.div`
   display: flex;
   width: 370px;
-  padding: 31px 25px 31px 26px;
-  margin-left: -26px;
+  padding: 31px 25px 11px 26px;
+  margin: 0 0 40px -26px;
   flex-direction: column;
   flex-shrink: 0;
-  gap: 8px;
+  gap: 4px;
   border-radius: 12px;
   border: 1px solid #000;
   background: #FFF;
@@ -67,7 +67,7 @@ const Period = styled.span`
 const Company = styled.div`
   display: flex;
   flex-direction: row;
-  gap: 8px;
+  gap: 4px;
   align-items: center;
   color: #000;
   font-family: Lato;

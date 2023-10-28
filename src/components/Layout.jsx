@@ -4,10 +4,10 @@ const Layout = (props) => {
   return (
     <Background>
       <Page>
-        <Column>
+        <Column style={{marginRight: '35px'}}>
           {props.left}
         </Column>
-        <Column>
+        <Column style={{marginLeft: '35px'}}>
           {props.right}
         </Column>
       </Page>

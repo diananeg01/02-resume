@@ -3,7 +3,7 @@ import ExperienceCard from './ExperienceCard';
 
 const WorkExperience = () => {
   return (
-    <div>
+    <ExperienceList>
       <Title>Work Experience</Title>
       <ExperienceCard 
         title={'Junior Fullstack Dev'} 
@@ -26,7 +26,7 @@ const WorkExperience = () => {
         location={'Timisoara, RO'}
         bulletPoints={['safs', 'aFwe', 'ASFWEC']}
       />
-    </div>
+    </ExperienceList>
   )
 }
 
@@ -45,5 +45,5 @@ const Title = styled.span`
 const ExperienceList = styled.div`
   display: flex;
   flex-direction: column;
-  gap: 40px;
+  margin-bottom: 40px;
 `;
