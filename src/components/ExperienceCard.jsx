@@ -1,23 +1,22 @@
 import styled from 'styled-components';
 
-const ExperienceCard = () => {
+const ExperienceCard = (props) => {
   return (
     <Container>
       <SpacedColumn>
-        <Title>Junior Fullstack Dev</Title>
-        <Period>01 jul 2022 - Current</Period>
+        <Title>{props.title}</Title>
+        <Period>{props.period}</Period>
       </SpacedColumn>
       <SpacedColumn>
         <Company> 
-          <CompanyLogo src="https://www.adaptivewfs.com/wp-content/uploads/2020/07/logo-placeholder-image.png"/> Irian Software Development
+          <CompanyLogo src="https://www.adaptivewfs.com/wp-content/uploads/2020/07/logo-placeholder-image.png"/> {props.company}
         </Company>
-        <Location>Timisoara, RO</Location>
+        <Location>{props.location}</Location>
       </SpacedColumn>
       <ul style={{columns:2}}>
-        <BulletPoint>asdas</BulletPoint>
-        <BulletPoint>asdas</BulletPoint>
-        <BulletPoint>asdas</BulletPoint>
-        <BulletPoint>asdas</BulletPoint> 
+        {props.bulletPoints.map(point => (
+          <BulletPoint>{point}</BulletPoint>
+        ))}
       </ul>
     </Container>
   )

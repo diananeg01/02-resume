@@ -5,10 +5,27 @@ const WorkExperience = () => {
   return (
     <div>
       <Title>Work Experience</Title>
-      <ExperienceCard />
-      <ExperienceCard />
-      <ExperienceCard />
-      <ExperienceCard />
+      <ExperienceCard 
+        title={'Junior Fullstack Dev'} 
+        period={'01 jul 2022 - current'}
+        company={'Irian Software Development'}
+        location={'Timisoara, RO'}
+        bulletPoints={['safs', 'aFwe', 'ASFWEC']}
+      />
+      <ExperienceCard 
+        title={'Junior Fullstack Dev'} 
+        period={'01 jul 2022 - current'}
+        company={'Irian Software Development'}
+        location={'Timisoara, RO'}
+        bulletPoints={['safs', 'aFwe', 'ASFWEC']}
+      />
+      <ExperienceCard 
+        title={'Junior Fullstack Dev'} 
+        period={'01 jul 2022 - current'}
+        company={'Irian Software Development'}
+        location={'Timisoara, RO'}
+        bulletPoints={['safs', 'aFwe', 'ASFWEC']}
+      />
     </div>
   )
 }
