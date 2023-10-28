@@ -18,7 +18,7 @@ export default Details;
 const Container = styled.div`
   display: flex;
   flex-direction: column;
-  margin: 43px 0 0 58px;
+  margin: 43px 0 46px 58px;
 `;
 
 const Name = styled.span`

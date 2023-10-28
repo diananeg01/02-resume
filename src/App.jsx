@@ -1,6 +1,7 @@
 import './normalize.css'
 import Layout from './components/Layout';
-import Details from './components/Details'
+import Details from './components/Details';
+import WorkExperience from './components/WorkExperience';
 
 export default function App() {
   return (
@@ -8,9 +9,10 @@ export default function App() {
       left={
         <div>
           <Details />
+          <WorkExperience />
         </div>
       } 
       right={<div>right</div>}
     />
-  )
-}
+  );
+};
