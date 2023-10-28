@@ -1,10 +1,10 @@
-import styled from 'styled-components';
 import './normalize.css'
+import Layout from './components/Layout';
 
 export default function App() {
   return (
-    <main>
+    <Layout>
       Hello, Resume! :)
-    </main>
+    </Layout>
   )
 }
