@@ -4,7 +4,7 @@ const Hobby = () => {
   return (
     <Container>
       <Title>Hobby</Title>
-      <HobbiesList>Photo / Video / Walking</HobbiesList>
+      <HobbiesList>Photo / Video / Hiking / Reading / Painting</HobbiesList>
     </Container>
   );
 };

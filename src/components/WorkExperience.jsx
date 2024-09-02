@@ -7,24 +7,17 @@ const WorkExperience = () => {
       <Title>Work Experience</Title>
       <ExperienceCard 
         title={'Junior Fullstack Dev'} 
-        period={'01 jul 2022 - current'}
+        period={'01 jul 2022 - present'}
         company={'Irian Software Development'}
         location={'Timisoara, RO'}
-        bulletPoints={['safs', 'aFwe', 'ASFWEC']}
+        bulletPoints={['Worked mostly with Angular and Java technologies', 'Been on diverse projects']}
       />
       <ExperienceCard 
-        title={'Junior Fullstack Dev'} 
-        period={'01 jul 2022 - current'}
-        company={'Irian Software Development'}
+        title={'AC LABS Participant'} 
+        period={'spring 2022, spring 2023, spring 2024 '}
+        company={'Irian Software Development, Bitdefender, Arnia'}
         location={'Timisoara, RO'}
-        bulletPoints={['safs', 'aFwe', 'ASFWEC']}
-      />
-      <ExperienceCard 
-        title={'Junior Fullstack Dev'} 
-        period={'01 jul 2022 - current'}
-        company={'Irian Software Development'}
-        location={'Timisoara, RO'}
-        bulletPoints={['safs', 'aFwe', 'ASFWEC']}
+        bulletPoints={['Been a participant to workshops developed by companies, approaching themes like Angular and Java, Python, React and AWS']}
       />
     </ExperienceList>
   )

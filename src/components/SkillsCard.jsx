@@ -13,16 +13,16 @@ export default SkillsCard;
 
 const Container = styled.div`
   display: flex;
-  width: 349px;
-  padding: 25px 73px 25px 18px;
+  padding: 21px 25px 22px 18px;
+  width: 269px;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
   gap: 14px;
   border-radius: 12px;
   border: 1px solid #515151;
-  background: #FFF;
-  margin: 23px 0 23px 0; 
+  background: #FFF; 
+  margin: 12px 0; 
 `;
 
 const Title = styled.span`

@@ -4,7 +4,7 @@ const Details = () => {
   return (
     <Container>
       <Name>Diana-Gabriela Negurita</Name>
-      <Title>Junior Fullstack Dev</Title>
+      <Title>Fullstack Developer</Title>
       <ContactRow>
         <Contact>+40 767 605 255</Contact>
         <Contact>diananegurita07@gmail.com</Contact>

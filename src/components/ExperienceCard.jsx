@@ -13,7 +13,7 @@ const ExperienceCard = (props) => {
         </Company>
         <Location>{props.location}</Location>
       </SpacedColumn>
-      <ul style={{columns:2}}>
+      <ul>
         {props.bulletPoints.map(point => (
           <BulletPoint>{point}</BulletPoint>
         ))}
